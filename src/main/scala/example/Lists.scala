@@ -32,9 +32,8 @@ object Lists {
       }
 
     }
-    3
 
-//    sumInner(0, xs)
+    sumInner(0, xs)
   }
 
   /**
