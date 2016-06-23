@@ -1,5 +1,7 @@
 package example
 
+import scala.annotation.tailrec
+
 
 object Lists {
 
@@ -19,7 +21,6 @@ object Lists {
    *
    * ''Hint:'' instead of writing a `for` or `while` loop, think of a recursive
    * solution.
-   *
    * @param xs A list of natural numbers
    * @return The sum of all elements in `xs`
    */
@@ -48,5 +49,7 @@ object Lists {
    * @return The largest element in `xs`
    * @throws java.util.NoSuchElementException if `xs` is an empty list
    */
-  def max(xs: List[Int]): Int = ???
+  def max(xs: List[Int]): Int = {
+
+  }
 }
